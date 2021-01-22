@@ -13,7 +13,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-light bg-light">
+        <nav class="navbar navbar-light bg-light fixed-top">
             <div class="container d-flex justify-content-between">
                 <a class="navbar-brand" href="index.html">
                     <i class="fab fa-instagram fa-2x text-muted" style="size: 30rem;"></i>
@@ -45,56 +45,425 @@
         </nav>
     </header>
 
-    <div class="d-grid gap-2 d-flex justify-content-center bg-white pt-3">
-        <a class="btn btn-secondary mr-1" href="index.html" role="button">
-            <i class="fas fa-grip-horizontal text-light"></i>
-        </a>
-        <a class="btn btn-light ml-1" href="index2.html" role="button">
-            <i class="fas fa-square text-secondary"></i>
-        </a>
+    <div class="container-fluid pt-5 mt-5">
+        <nav class="nav nav-tabs gap-2 d-flex justify-content-center border-bottom-0 bg-white pb-3">
+            <a class="btn btn-secondary mr-1" data-toggle="pill" role="button" href="#grid">
+                <i class="fas fa-grip-horizontal text-light"></i>
+            </a>
+            <a class="btn btn-secondary mr-1" data-toggle="pill" role="button" href="#cols">
+                <i class="fas fa-square text-light"></i>
+            </a>
+        </nav>
     </div>
 
-    <div class="album py-3">
-        <div class="container-fluid">
-            <div class="row row-cols-sm-2 row-cols-md-3">
-                <div class="col p-0">
-                    <img src="./img/castle01.jpg" alt="castle01" class="img-fit">
-                </div>
-                <div class="col p-0">
-                    <img src="./img/castle02.jpg" alt="castle02" class="img-fit">
-                </div>
-                <div class="col p-0">
-                    <img src="./img/castle03.jpg" alt="castle03" class="img-fit">
-                </div>
-                <div class="col p-0">
-                    <img src="./img/castle04.jpg" alt="castle04" class="img-fit">
-                </div>
-                <div class="col p-0">
-                    <img src="./img/castle05.jpg" alt="castle05" class="img-fit">
-                </div>
-                <div class="col p-0">
-                    <img src="./img/castle06.jpg" alt="castle06" class="img-fit">
-                </div>
-                <div class="col p-0">
-                    <img src="./img/castle07.jpg" alt="castle07" class="img-fit">
-                </div>
-                <div class="col p-0">
-                    <img src="./img/castle08.jpg" alt="castle08" class="img-fit">
-                </div>
+    <div class="tab-content">
+        <div id="grid" class="tab-pane fade show active">
+            <div class="container-fluid">
+                <div class="row row-cols-sm-2 row-cols-md-3">
+                    <div class="col p-0">
+                        <img src="./img/castle01.jpg" alt="castle01" class="img-fit">
+                    </div>
+                    <div class="col p-0">
+                        <img src="./img/castle02.jpg" alt="castle02" class="img-fit">
+                    </div>
+                    <div class="col p-0">
+                        <img src="./img/castle03.jpg" alt="castle03" class="img-fit">
+                    </div>
+                    <div class="col p-0">
+                        <img src="./img/castle04.jpg" alt="castle04" class="img-fit">
+                    </div>
+                    <div class="col p-0">
+                        <img src="./img/castle05.jpg" alt="castle05" class="img-fit">
+                    </div>
+                    <div class="col p-0">
+                        <img src="./img/castle06.jpg" alt="castle06" class="img-fit">
+                    </div>
+                    <div class="col p-0">
+                        <img src="./img/castle07.jpg" alt="castle07" class="img-fit">
+                    </div>
+                    <div class="col p-0">
+                        <img src="./img/castle08.jpg" alt="castle08" class="img-fit">
+                    </div>
 
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/o4_QDwpBRcw" allow="autoplay; picture-in-picture"
-                        allowfullscreen></iframe>
-                </div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/o4_QDwpBRcw"
+                            allow="autoplay; picture-in-picture" allowfullscreen></iframe>
+                    </div>
 
-                <div class="col p-0">
-                    <img src="./img/castle10.jpg" alt="castle10" class="img-fit">
+                    <div class="col p-0">
+                        <img src="./img/castle10.jpg" alt="castle10" class="img-fit">
+                    </div>
+                    <div class="col p-0">
+                        <img src="./img/castle11.jpg" alt="castle11" class="img-fit">
+                    </div>
+                    <div class="col p-0">
+                        <img src="./img/castle12.jpg" alt="castle12" class="img-fit">
+                    </div>
                 </div>
-                <div class="col p-0">
-                    <img src="./img/castle11.jpg" alt="castle11" class="img-fit">
-                </div>
-                <div class="col p-0">
-                    <img src="./img/castle12.jpg" alt="castle12" class="img-fit">
+            </div>
+        </div>
+        <div id="cols" class="tab-pane fade">
+            <div class="container-fluid bg-light">
+                <div class="row justify-content-center align-items-center pt-5">
+                    <div class="col-sm-8">
+
+                        <div class="row justify-content-center">
+                            <div class="card mb-5 pt-2" style="width: 50rem;">
+                                <h4 class="card-title pl-3">Alcazar de Segovia</h4>
+                                <img class="card-img-top" src="./img/castle01.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h6 class="card-title"> 12 likes </h6>
+                                    <p class="card-text">
+                                        It is a long established fact that a reader will be distracted by the readable
+                                        content
+                                        of a page when looking at its layout. The point of using Lorem Ipsum is that it
+                                        has
+                                        a
+                                        more-or-less normal distribution of letters, as opposed to using 'Content here,
+                                        content
+                                        here', making it look like readable English.
+                                    </p>
+
+                                    <div class="d-flex">
+                                        <a class="btn p-1 text-black-50" href="#" role="button">
+                                            <i class="far fa-heart"></i>
+                                        </a>
+                                        <a class="btn p-1 text-black-50" href="#" role="button">
+                                            <p class="pfoot"> Comment...</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-5 pt-2" style="width: 50rem;">
+                                <h4 class="card-title pl-3">Burg Eltz</h4>
+                                <img class="card-img-top" src="./img/castle02.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h6 class="card-title"> 15 likes </h6>
+                                    <p class="card-text">
+                                        It is a long established fact that a reader will be distracted by the readable
+                                        content
+                                        of a page when looking at its layout. The point of using Lorem Ipsum is that it
+                                        has
+                                        a
+                                        more-or-less normal distribution of letters, as opposed to using 'Content here,
+                                        content
+                                        here', making it look like readable English.
+                                    </p>
+
+                                    <div class="d-flex">
+                                        <a class="btn p-1 text-black-50" href="#" role="button">
+                                            <i class="far fa-heart"></i>
+                                        </a>
+                                        <a class="btn p-1 text-black-50" href="#" role="button">
+                                            <p class="pfoot"> Comment...</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-5 pt-2" style="width: 50rem;">
+                                <h4 class="card-title pl-3">Neuschwanstein</h4>
+                                <img class="card-img-top" src="./img/castle03.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h6 class="card-title"> 10 likes </h6>
+                                    <p class="card-text">
+                                        It is a long established fact that a reader will be distracted by the readable
+                                        content
+                                        of a page when looking at its layout. The point of using Lorem Ipsum is that it
+                                        has
+                                        a
+                                        more-or-less normal distribution of letters, as opposed to using 'Content here,
+                                        content
+                                        here', making it look like readable English.
+                                    </p>
+
+                                    <div class="d-flex">
+                                        <a class="btn p-1 text-black-50" href="#" role="button">
+                                            <i class="far fa-heart"></i>
+                                        </a>
+                                        <a class="btn p-1 text-black-50" href="#" role="button">
+                                            <p class="pfoot"> Comment...</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-5 pt-2" style="width: 50rem;">
+                                <h4 class="card-title pl-3">Château de Chambord</h4>
+                                <img class="card-img-top" src="./img/castle04.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h6 class="card-title"> 20 likes </h6>
+                                    <p class="card-text">
+                                        It is a long established fact that a reader will be distracted by the readable
+                                        content
+                                        of a page when looking at its layout. The point of using Lorem Ipsum is that it
+                                        has
+                                        a
+                                        more-or-less normal distribution of letters, as opposed to using 'Content here,
+                                        content
+                                        here', making it look like readable English.
+                                    </p>
+
+                                    <div class="d-flex">
+                                        <a class="btn p-1 text-black-50" href="#" role="button">
+                                            <i class="far fa-heart"></i>
+                                        </a>
+                                        <a class="btn p-1 text-black-50" href="#" role="button">
+                                            <p class="pfoot"> Comment...</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-5 pt-2" style="width: 50rem;">
+                                <h4 class="card-title pl-3">Château de Brissac</h4>
+                                <img class="card-img-top" src="./img/castle05.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h6 class="card-title"> 19 likes </h6>
+                                    <p class="card-text">
+                                        It is a long established fact that a reader will be distracted by the readable
+                                        content
+                                        of a page when looking at its layout. The point of using Lorem Ipsum is that it
+                                        has
+                                        a
+                                        more-or-less normal distribution of letters, as opposed to using 'Content here,
+                                        content
+                                        here', making it look like readable English.
+                                    </p>
+
+                                    <div class="d-flex">
+                                        <a class="btn p-1 text-black-50" href="#" role="button">
+                                            <i class="far fa-heart"></i>
+                                        </a>
+                                        <a class="btn p-1 text-black-50" href="#" role="button">
+                                            <p class="pfoot"> Comment...</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-5 pt-2" style="width: 50rem;">
+                                <h4 class="card-title pl-3">Kirby Muxloe Castle</h4>
+                                <img class="card-img-top" src="./img/castle06.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h6 class="card-title"> 17 likes </h6>
+                                    <p class="card-text">
+                                        It is a long established fact that a reader will be distracted by the readable
+                                        content
+                                        of a page when looking at its layout. The point of using Lorem Ipsum is that it
+                                        has
+                                        a
+                                        more-or-less normal distribution of letters, as opposed to using 'Content here,
+                                        content
+                                        here', making it look like readable English.
+                                    </p>
+
+                                    <div class="d-flex">
+                                        <a class="btn p-1 text-black-50" href="#" role="button">
+                                            <i class="far fa-heart"></i>
+                                        </a>
+                                        <a class="btn p-1 text-black-50" href="#" role="button">
+                                            <p class="pfoot"> Comment...</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-5 pt-2" style="width: 50rem;">
+                                <h4 class="card-title pl-3">Kasteel van Olsene</h4>
+                                <img class="card-img-top" src="./img/castle07.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h6 class="card-title"> 10 likes </h6>
+                                    <p class="card-text">
+                                        It is a long established fact that a reader will be distracted by the readable
+                                        content
+                                        of a page when looking at its layout. The point of using Lorem Ipsum is that it
+                                        has
+                                        a
+                                        more-or-less normal distribution of letters, as opposed to using 'Content here,
+                                        content
+                                        here', making it look like readable English.
+                                    </p>
+
+                                    <div class="d-flex">
+                                        <a class="btn p-1 text-black-50" href="#" role="button">
+                                            <i class="far fa-heart"></i>
+                                        </a>
+                                        <a class="btn p-1 text-black-50" href="#" role="button">
+                                            <p class="pfoot"> Comment...</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-5 pt-2" style="width: 50rem;">
+                                <h4 class="card-title pl-3">Castillo de Chapultepec</h4>
+                                <img class="card-img-top" src="./img/castle08.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h6 class="card-title"> 21 likes </h6>
+                                    <p class="card-text">
+                                        It is a long established fact that a reader will be distracted by the readable
+                                        content
+                                        of a page when looking at its layout. The point of using Lorem Ipsum is that it
+                                        has
+                                        a
+                                        more-or-less normal distribution of letters, as opposed to using 'Content here,
+                                        content
+                                        here', making it look like readable English.
+                                    </p>
+
+                                    <div class="d-flex">
+                                        <a class="btn p-1 text-black-50" href="#" role="button">
+                                            <i class="far fa-heart"></i>
+                                        </a>
+                                        <a class="btn p-1 text-black-50" href="#" role="button">
+                                            <p class="pfoot"> Comment...</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-5 pt-2" style="width: 50rem;">
+                                <h4 class="card-title pl-3">Top Ten Castillos</h4>
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item"
+                                        src="https://www.youtube.com/embed/o4_QDwpBRcw"
+                                        allow="autoplay; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <div class="card-body">
+                                    <h6 class="card-title"> 10 likes </h6>
+                                    <p class="card-text">
+                                        It is a long established fact that a reader will be distracted by the readable
+                                        content
+                                        of a page when looking at its layout. The point of using Lorem Ipsum is that it
+                                        has
+                                        a
+                                        more-or-less normal distribution of letters, as opposed to using 'Content here,
+                                        content
+                                        here', making it look like readable English.
+                                    </p>
+
+                                    <div class="d-flex">
+                                        <a class="btn p-1 text-black-50" href="#" role="button">
+                                            <i class="far fa-heart"></i>
+                                        </a>
+                                        <a class="btn p-1 text-black-50" href="#" role="button">
+                                            <p class="pfoot"> Comment...</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-5 pt-2" style="width: 50rem;">
+                                <h4 class="card-title pl-3">Castiilo de Chapultepec</h4>
+                                <img class="card-img-top" src="./img/castle08.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h6 class="card-title"> 21 likes </h6>
+                                    <p class="card-text">
+                                        It is a long established fact that a reader will be distracted by the readable
+                                        content
+                                        of a page when looking at its layout. The point of using Lorem Ipsum is that it
+                                        has
+                                        a
+                                        more-or-less normal distribution of letters, as opposed to using 'Content here,
+                                        content
+                                        here', making it look like readable English.
+                                    </p>
+
+                                    <div class="d-flex">
+                                        <a class="btn p-1 text-black-50" href="#" role="button">
+                                            <i class="far fa-heart"></i>
+                                        </a>
+                                        <a class="btn p-1 text-black-50" href="#" role="button">
+                                            <p class="pfoot"> Comment...</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-5 pt-2" style="width: 50rem;">
+                                <h4 class="card-title pl-3">Castell Conwy</h4>
+                                <img class="card-img-top" src="./img/castle10.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h6 class="card-title"> 9 likes </h6>
+                                    <p class="card-text">
+                                        It is a long established fact that a reader will be distracted by the readable
+                                        content
+                                        of a page when looking at its layout. The point of using Lorem Ipsum is that it
+                                        has
+                                        a
+                                        more-or-less normal distribution of letters, as opposed to using 'Content here,
+                                        content
+                                        here', making it look like readable English.
+                                    </p>
+
+                                    <div class="d-flex">
+                                        <a class="btn p-1 text-black-50" href="#" role="button">
+                                            <i class="far fa-heart"></i>
+                                        </a>
+                                        <a class="btn p-1 text-black-50" href="#" role="button">
+                                            <p class="pfoot"> Comment...</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-5 pt-2" style="width: 50rem;">
+                                <h4 class="card-title pl-3">Muiderslot Kasteel</h4>
+                                <img class="card-img-top" src="./img/castle11.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h6 class="card-title"> 8 likes </h6>
+                                    <p class="card-text">
+                                        It is a long established fact that a reader will be distracted by the readable
+                                        content
+                                        of a page when looking at its layout. The point of using Lorem Ipsum is that it
+                                        has
+                                        a
+                                        more-or-less normal distribution of letters, as opposed to using 'Content here,
+                                        content
+                                        here', making it look like readable English.
+                                    </p>
+
+                                    <div class="d-flex">
+                                        <a class="btn p-1 text-black-50" href="#" role="button">
+                                            <i class="far fa-heart"></i>
+                                        </a>
+                                        <a class="btn p-1 text-black-50" href="#" role="button">
+                                            <p class="pfoot"> Comment...</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-5 pt-2" style="width: 50rem;">
+                                <h4 class="card-title pl-3">Burg Hohenzollern</h4>
+                                <img class="card-img-top" src="./img/castle12.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h6 class="card-title"> 13 likes </h6>
+                                    <p class="card-text">
+                                        It is a long established fact that a reader will be distracted by the readable
+                                        content
+                                        of a page when looking at its layout. The point of using Lorem Ipsum is that it
+                                        has
+                                        a
+                                        more-or-less normal distribution of letters, as opposed to using 'Content here,
+                                        content
+                                        here', making it look like readable English.
+                                    </p>
+
+                                    <div class="d-flex">
+                                        <a class="btn p-1 text-black-50" href="#" role="button">
+                                            <i class="far fa-heart"></i>
+                                        </a>
+                                        <a class="btn p-1 text-black-50" href="#" role="button">
+                                            <p class="pfoot"> Comment...</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
